@@ -1,0 +1,26 @@
+.player {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 1rem auto;
+    padding: 30px;
+    border-radius: 1rem;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.2);
+    height: 95vh;
+  }
+.player > h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.player > p {
+    color: #aaa;
+    font-size: 14px;
+    text-align: center;font-weight: 600;
+}
+
+.player > p span {
+    font-weight: 400;
+    width: fit-content;
+}

@@ -3,12 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease
 }
 
 body {
-  background-color: slategray;
+  background-image: url(../src/components/alch.jpg);;
   background-size: cover;
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(4px);
+  background-repeat: no-repeat;
+  background-position: 100%;
 }
 .App {
   display: flex;
@@ -16,6 +19,16 @@ body {
   justify-content: center;
   max-height: 100vh;
   width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .App {
+    height: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .App {
+    height: 100vh;
+  }
 }
 
 

@@ -1,7 +1,12 @@
-.details__image {
+.details__img {
     position: relative;
-    width: fit-content;
-    margin: 0 auto;
+    
+    margin-bottom: 4rem;
+}
+@media screen and (min-height: 770px) {
+    .details__img {
+        margin-bottom: 8rem;
+    }
 }
 .details__img img {
     display: block;
@@ -11,6 +16,7 @@
     max-width: 259px;
     max-height: 259px;
     border-radius: 50%;
+   
     
 }
 .active .details__img img{

@@ -1,12 +1,48 @@
 .player {
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     margin: 1rem auto;
     padding: 30px;
     border-radius: 1rem;
     box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.2);
     height: 95vh;
   }
+  @media  (max-width: 1024px) and (min-height: 1000px) {
+    .player{
+      height: 70vh;
+      margin: 15rem auto;
+    }  
+  }
+  @media  (max-width: 1024px) and (min-height: 1000px) {
+    .player{
+      height: 70vh;
+      margin: 15rem auto;
+    }  
+  }
+  @media  (max-width: 1024px) and (min-height: 1250px) {
+    .player{
+      height: 60vh;
+      margin: 20rem auto;
+    }  
+  }
+  @media screen and (max-width: 600px) {
+    .player{
+        height: 85vh;
+        
+      }  
+    }
+    @media screen and (max-width: 400px) {
+        .player{
+            height: 93vh;
+            
+          }  
+        }
+        @media screen and (max-width: 360px) {
+            .player{
+                height: 93vh;
+                width: 340px;
+              }  
+            }
 .player > h4 {
     color: white;
     font-weight: 400;
@@ -23,4 +59,8 @@
 .player > p span {
     font-weight: 400;
     width: fit-content;
+    color: white;
+}
+audio::-webkit-file-download-button {
+    display: block;
 }

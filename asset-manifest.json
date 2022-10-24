@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-music-player-app/static/css/main.57732216.css",
+    "main.js": "/react-music-player-app/static/js/main.00c401fd.js",
+    "static/js/787.5d86c2a1.chunk.js": "/react-music-player-app/static/js/787.5d86c2a1.chunk.js",
+    "static/media/alch.jpg": "/react-music-player-app/static/media/alch.bb16eee5d851dd960410.jpg",
+    "index.html": "/react-music-player-app/index.html",
+    "main.57732216.css.map": "/react-music-player-app/static/css/main.57732216.css.map",
+    "main.00c401fd.js.map": "/react-music-player-app/static/js/main.00c401fd.js.map",
+    "787.5d86c2a1.chunk.js.map": "/react-music-player-app/static/js/787.5d86c2a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57732216.css",
+    "static/js/main.00c401fd.js"
+  ]
+}
